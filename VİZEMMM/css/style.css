@@ -1,0 +1,104 @@
+/* Resets (Yeniden ayarlanan css kodları) (bunu tam öğren)*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+font-family: "Karla", sans-serif;
+    margin-bottom: 20px;
+}
+
+header p {
+    margin-bottom: 20px;
+}
+
+header button {
+    background-color: rgb(204, 33, 33);
+    color: rgb(0, 0, 0);
+}
+
+
+body {
+    color: rgb(248, 248, 248); /*WEB SİTESİNİN YAZI RENGİ GENEL YAZI RENGİ*/
+}
+
+ul{
+    list-style-type: none; /*Stil tipini kaldırma*/
+}
+
+button{
+    padding: 14px 16px; /*üst-alt:14 px, sağ-sol: 16px ortalama*/
+    border: none; /*kenarları kaldırmak için kulanılır*/
+    border-radius: 5px; /*kenar ovalliği*/
+    cursor:pointer; /*fare işaretini tıklama işaretini olarak değiştirme(maus değişiyor)*/
+    font-weight: bold; /*yzaı kalınlığı*/
+}
+
+a{
+    text-decoration: none; /*alt çizginin kaldırılması */
+}
+
+img{
+    width: 100%; /* margin kısmının boyutunu ayarlar (üniverste bilgileri) içinde bulunduğu etiket kadar yer kapla*/
+}
+
+p{
+    line-height: 1.8; /*Satır yüksekliği. Varsayılan değeri punto (pt)*/
+    text-align: justify; /*yazıyı iki yana yaslama*/
+}
+
+/* Header */
+header {
+    background-color: #11afe3; /*Arkaplan rengi*/
+    text-align: center; /*Metin Hizalama (Sağa, Sola, Ortaya, İki Yana Yasla)*/
+    height: 300px; /*Yükseklik*/
+    display: flex;
+    justify-content: center; /*Yatay ortalama*/
+    align-items: center; /*Dikey ortalama*/
+}
+
+/* Nav */
+nav ul {
+    background-color: #d12525;
+    display: flex; /*Flexbox ile öğeleri yan yana getirme*/
+    justify-content: center; /*Yatayda hizalama sağlar*/
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px; /*üst-sağ-sol-alt*/
+    color: rgb(0, 0, 0);
+}
+
+/* Main */
+main{
+    display: flex;
+    max-width: 1280px; /*En fazla alabileceği genişlik*/
+    margin: 0 auto; /*Genişlik verilen durumlarda kalıplaşmış ortalama yöntemi*/
+    gap:20px; /*gönderiler ve yan bölüm arası boşluk verme*/
+    margin-top: 20px; /*nav ile main arasına boşluk verme*/
+}
+
+main section{
+    flex: 2; /*2 kat oranında büyü*/
+}
+
+main div {
+    flex: 1; /*1 kat oranında büyü*/
+}
+
+/* Kartlar (Cards) */
+.card{ /*Card adlı sınıf(Class) oluşturma*/
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.card-date{
+    margin: 10px 0;
+}
