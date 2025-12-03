@@ -1,3 +1,3 @@
-Vize sınavı açıklaması 
+Vize sınavı için hazırlanmışrtır
 
 Basit ve hızlı HTML ile CSS3 tabanlı bir web sitesi tasarım örneğidir,  hazırlanmıştır.
