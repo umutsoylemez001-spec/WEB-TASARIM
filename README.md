@@ -2,8 +2,7 @@ Vize sınavı için hazırlanmışrtır
 
 Basit ve hızlı HTML ile CSS3 tabanlı bir web sitesi tasarım örneğidir,  hazırlanmıştır.
 : kişisel web sitesi olucak şekilde hazırlanmıştır. öğrenci profili ve üniverste bilgilerinin yanın da kişisel linkler içerir.
-Görseler:
-![IMG_0342](https://github.com/user-attachments/assets/df0f24e6-5dd9-46ed-ac34-900f0739541c)
+Görseler 1 örnek:
 ![Görüntü](https://github.com/user-attachments/assets/1c4d2672-7f91-49b6-88ad-6c40c09fa992)
 
 linkler:
